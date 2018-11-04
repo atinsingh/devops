@@ -2,6 +2,6 @@ var name =  "DevOps Master class";
 console.log(name);
 greetMe("Hello");
 
-var greetMe  = function(greeting){
+function greetMe(greeting){
 	console.log(greeting);
 }
