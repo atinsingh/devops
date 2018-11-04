@@ -1,3 +1,5 @@
+
+var cc = require("./creditcard.js");
 var name =  "DevOps Master class";
 console.log(name);
 greetMe("Hello2");
