@@ -7,3 +7,7 @@ function greetMe(greeting){
 	console.log(greeting);
 }
 //added comment
+
+function test() {
+	console.log("Nothing");
+}
