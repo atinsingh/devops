@@ -5,3 +5,4 @@ greetMe("Hello2");
 function greetMe(greeting){
 	console.log(greeting);
 }
+//added comment
