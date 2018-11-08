@@ -2,16 +2,16 @@
 
 ## Branching 
 ### Create Branch 
-```sh
+```bash
  git checkout -b feature1
 ```
 ### Fast Forward Merge
-```console
+```bash
 git merge source target
 ```
 ### No Fast Forward Merge
 
 <h1> Loggin </h1>
-git log --online --decorate --graph
+git log --oneline --decorate --graph
 
 
