@@ -1,12 +1,11 @@
 {
-  "name": "firstproject",
-  "version": "1.0.1",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "start" : "node app.js"
-  },
-  "author": "",
-  "license": "ISC"
+  "name": "devops",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/atinsingh/devops.git",
+  "author": "Atin Singh <atin@pragra.co>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
