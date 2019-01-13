@@ -5,18 +5,9 @@ services:
     ports:
       - 27017:27017
   app:
-    image:  pragra/node-rest-api:v2.0.0
     build: .
     ports:
       - 3000:3000
-      - 8080:9090
     depends_on: 
       - mongo
   
-
-  
-
-  docker service create --name my_web \
-                        --replicas 1 \
-                        --publish published=8080,target=80 \
-                        tomcat
