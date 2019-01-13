@@ -9,4 +9,4 @@ services:
   mongo:
     extends :
       file : mongo.yml
-      service : mongodb  
+      service: mongodb  
