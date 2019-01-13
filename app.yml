@@ -10,8 +10,13 @@ services:
     ports:
       - 3000:3000
       - 8080:9090
-    depends-on: 
+    depends_on: 
       - mongo
   
 
   
+
+  docker service create --name my_web \
+                        --replicas 1 \
+                        --publish published=8080,target=80 \
+                        tomcat
