@@ -5,7 +5,7 @@ services:
     ports:
       - 27017:27017
   app:
-    build: .
+    image: cpsbatthoutlook/node-rest-api:v2.0.0
     ports:
       - 3000:3000
     depends_on: 
